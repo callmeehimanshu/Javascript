@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.outer{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    font-size: large;
+}
+.inner{
+    width: 250px;
+    background: linear-gradient(to top left, rgb(0, 140, 255) ,white);
+    margin: auto;
+    position: relative;
+    top: 20%;
+    padding: 10px 20px;
+   
+    z-index: 2;
+    
+}
+.signup h1 {
+    
+   color: blue;
+   text-shadow: 2px 2px lightcoral;
+}
+.signup p{
+    color: gray;
+
+}
+.signup_body{
+    font-size: large;
+}
+.signup_body p{
+    color: blue;
+    padding: 3px;
+}
+.footer p{
+    padding: 5px;
+}
+ .submit {
+    color: blue;
+    cursor: pointer;
+}
+.submit:hover{
+   background-color:lightblue;
+   font-size: x-large;
+   border: 2px gray solid;
+}
+.footer{
+    margin: auto;
+    
+}
+.footer a{
+    cursor: pointer;
+    margin: auto;
+    
+   
+    
+}
+.footer a:hover{
+   font-size: x-large; 
+  
+   
+    
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to top right,white,rgb(0, 140, 255));
+    position: absolute;
+}
+.c1{
+    top: 30%;
+    left: 11%;
+}
+.c2{
+    top: 70%;
+   
+    right: 5%;
+}
