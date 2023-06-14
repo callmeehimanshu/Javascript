@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:rgba(255, 0, 0, 0.47);
+
+}
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(152, 29, 29);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+button{
+    background-color: rgb(219, 129, 129);
+    color: rgb(254, 5, 5);
+    cursor: pointer;
+
+
+}
+button:hover{
+    background-color: rgb(177, 238, 177);
+    border: 2px rgb(14, 227, 14) solid;
+    color: black;
+}
+.task{
+    background-color:antiquewhite ;
+    margin: 2vmax;
+    padding: 3px;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+.task span{
+    color: black;
+}
+.task>div{
+    width: 100%;
+}
+.deleteBtn{
+    font-size: 1.6rem;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 148, 148);
+}
+.deleteBtn:hover{
+    background-color: rgb(243, 133, 133);
+    border: rgb(255, 18, 18) solid 2px;
+    color: red;
+   
+}
